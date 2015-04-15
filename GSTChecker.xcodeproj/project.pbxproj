@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768898651ADED44800E3F486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768898641ADED44800E3F486 /* AppDelegate.swift */; };
+		768898671ADED44800E3F486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768898661ADED44800E3F486 /* ViewController.swift */; };
+		7688986A1ADED44800E3F486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768898681ADED44800E3F486 /* Main.storyboard */; };
+		7688986C1ADED44800E3F486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7688986B1ADED44800E3F486 /* Images.xcassets */; };
+		7688986F1ADED44800E3F486 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7688986D1ADED44800E3F486 /* LaunchScreen.xib */; };
+		7688987B1ADED44800E3F486 /* GSTCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688987A1ADED44800E3F486 /* GSTCheckerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		768898751ADED44800E3F486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768898571ADED44800E3F486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7688985E1ADED44800E3F486;
+			remoteInfo = GSTChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7688985F1ADED44800E3F486 /* GSTChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSTChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		768898631ADED44800E3F486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768898641ADED44800E3F486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		768898661ADED44800E3F486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		768898691ADED44800E3F486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7688986B1ADED44800E3F486 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7688986E1ADED44800E3F486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		768898741ADED44800E3F486 /* GSTCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSTCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768898791ADED44800E3F486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7688987A1ADED44800E3F486 /* GSTCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSTCheckerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7688985C1ADED44800E3F486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768898711ADED44800E3F486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768898561ADED44800E3F486 = {
+			isa = PBXGroup;
+			children = (
+				768898611ADED44800E3F486 /* GSTChecker */,
+				768898771ADED44800E3F486 /* GSTCheckerTests */,
+				768898601ADED44800E3F486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		768898601ADED44800E3F486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7688985F1ADED44800E3F486 /* GSTChecker.app */,
+				768898741ADED44800E3F486 /* GSTCheckerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768898611ADED44800E3F486 /* GSTChecker */ = {
+			isa = PBXGroup;
+			children = (
+				768898641ADED44800E3F486 /* AppDelegate.swift */,
+				768898661ADED44800E3F486 /* ViewController.swift */,
+				768898681ADED44800E3F486 /* Main.storyboard */,
+				7688986B1ADED44800E3F486 /* Images.xcassets */,
+				7688986D1ADED44800E3F486 /* LaunchScreen.xib */,
+				768898621ADED44800E3F486 /* Supporting Files */,
+			);
+			path = GSTChecker;
+			sourceTree = "<group>";
+		};
+		768898621ADED44800E3F486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				768898631ADED44800E3F486 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		768898771ADED44800E3F486 /* GSTCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7688987A1ADED44800E3F486 /* GSTCheckerTests.swift */,
+				768898781ADED44800E3F486 /* Supporting Files */,
+			);
+			path = GSTCheckerTests;
+			sourceTree = "<group>";
+		};
+		768898781ADED44800E3F486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				768898791ADED44800E3F486 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7688985E1ADED44800E3F486 /* GSTChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7688987E1ADED44800E3F486 /* Build configuration list for PBXNativeTarget "GSTChecker" */;
+			buildPhases = (
+				7688985B1ADED44800E3F486 /* Sources */,
+				7688985C1ADED44800E3F486 /* Frameworks */,
+				7688985D1ADED44800E3F486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSTChecker;
+			productName = GSTChecker;
+			productReference = 7688985F1ADED44800E3F486 /* GSTChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		768898731ADED44800E3F486 /* GSTCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768898811ADED44800E3F486 /* Build configuration list for PBXNativeTarget "GSTCheckerTests" */;
+			buildPhases = (
+				768898701ADED44800E3F486 /* Sources */,
+				768898711ADED44800E3F486 /* Frameworks */,
+				768898721ADED44800E3F486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768898761ADED44800E3F486 /* PBXTargetDependency */,
+			);
+			name = GSTCheckerTests;
+			productName = GSTCheckerTests;
+			productReference = 768898741ADED44800E3F486 /* GSTCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768898571ADED44800E3F486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = afiq;
+				TargetAttributes = {
+					7688985E1ADED44800E3F486 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					768898731ADED44800E3F486 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7688985E1ADED44800E3F486;
+					};
+				};
+			};
+			buildConfigurationList = 7688985A1ADED44800E3F486 /* Build configuration list for PBXProject "GSTChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 768898561ADED44800E3F486;
+			productRefGroup = 768898601ADED44800E3F486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7688985E1ADED44800E3F486 /* GSTChecker */,
+				768898731ADED44800E3F486 /* GSTCheckerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7688985D1ADED44800E3F486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7688986A1ADED44800E3F486 /* Main.storyboard in Resources */,
+				7688986F1ADED44800E3F486 /* LaunchScreen.xib in Resources */,
+				7688986C1ADED44800E3F486 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768898721ADED44800E3F486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7688985B1ADED44800E3F486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768898671ADED44800E3F486 /* ViewController.swift in Sources */,
+				768898651ADED44800E3F486 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768898701ADED44800E3F486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7688987B1ADED44800E3F486 /* GSTCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		768898761ADED44800E3F486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7688985E1ADED44800E3F486 /* GSTChecker */;
+			targetProxy = 768898751ADED44800E3F486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		768898681ADED44800E3F486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768898691ADED44800E3F486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7688986D1ADED44800E3F486 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7688986E1ADED44800E3F486 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7688987C1ADED44800E3F486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7688987D1ADED44800E3F486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7688987F1ADED44800E3F486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GSTChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		768898801ADED44800E3F486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GSTChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		768898821ADED44800E3F486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GSTCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSTChecker.app/GSTChecker";
+			};
+			name = Debug;
+		};
+		768898831ADED44800E3F486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GSTCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSTChecker.app/GSTChecker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7688985A1ADED44800E3F486 /* Build configuration list for PBXProject "GSTChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7688987C1ADED44800E3F486 /* Debug */,
+				7688987D1ADED44800E3F486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7688987E1ADED44800E3F486 /* Build configuration list for PBXNativeTarget "GSTChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7688987F1ADED44800E3F486 /* Debug */,
+				768898801ADED44800E3F486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		768898811ADED44800E3F486 /* Build configuration list for PBXNativeTarget "GSTCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768898821ADED44800E3F486 /* Debug */,
+				768898831ADED44800E3F486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768898571ADED44800E3F486 /* Project object */;
+}
